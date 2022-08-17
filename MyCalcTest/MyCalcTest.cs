@@ -16,6 +16,8 @@ namespace LabExercise
         }
         [DataTestMethod]
         [DataRow(20,30,50)]
+        [DataRow(30,30,60)]
+
         public void TestData3Addmethod(double a1,double a2,double expectedresult)
         {
             double actualresult = MyCalc.Add(a1,a2);
