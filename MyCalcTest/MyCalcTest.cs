@@ -33,6 +33,8 @@ namespace LabExercise
         }
 
         [DataTestMethod]
+        
+        [DataRow(10,20,200)]
         [DataRow(10,20,200)]
         public void TestDataMulmethod(double a1,double a2,double expectedresult)
         {
