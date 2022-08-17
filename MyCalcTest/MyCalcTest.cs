@@ -14,6 +14,13 @@ namespace LabExercise
             double actualresult = MyCalc.Add(a1,a2);
         Assert.AreEqual(expectedresult,actualresult, "add Test Case not passes");
         }
+        [DataTestMethod]
+        [DataRow(20,30,50)]
+        public void TestData3Addmethod(double a1,double a2,double expectedresult)
+        {
+            double actualresult = MyCalc.Add(a1,a2);
+        Assert.AreEqual(expectedresult,actualresult, "add Test Case not passes");
+        }
         
         [DataTestMethod]
         [DataRow(30,20,10)]
